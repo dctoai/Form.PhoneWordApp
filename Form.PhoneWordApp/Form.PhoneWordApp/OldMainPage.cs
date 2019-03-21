@@ -7,14 +7,14 @@ using Xamarin.Forms;
 
 namespace Form.PhoneWordApp
 {
-	public class MainPage : ContentPage
+	public class OldMainPage : ContentPage
 	{
         Entry phoneNumberText;
         Button buttonTranslate;
         Button buttonCall;
         string translateNumber;
 
-		public MainPage ()
+		public OldMainPage ()
 		{
             this.Padding = new Thickness(20, 20, 20, 20);
             StackLayout panel = new StackLayout();

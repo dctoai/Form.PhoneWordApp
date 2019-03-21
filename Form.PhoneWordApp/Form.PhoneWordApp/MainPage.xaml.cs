@@ -55,7 +55,6 @@ namespace Form.PhoneWordApp
             }
         }
 
-
         private void OnSelectOperator(object sender, EventArgs e)
         {
             currentState = -2;
